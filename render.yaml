@@ -1,0 +1,10 @@
+
+services:
+  - type: web
+    name: eurusd-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main.py
+    repo: https://github.com/your-username/pocket_option
+    autoDeploy: false
